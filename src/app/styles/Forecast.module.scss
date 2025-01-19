@@ -1,0 +1,13 @@
+.forecastList {
+  gap: 20px;
+  flex-wrap: wrap;
+
+  .forecastItem {
+    flex: 1 1 25%;
+    padding: 15px;
+
+    @media (max-width: 768px) {
+      flex: 1 1 50%;
+    }
+  }
+}
